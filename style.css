@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#color {
+    color: rgb(25, 135, 84);
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* ---------------- navbar --------------- */
+
+#nav-con {
+    width: 100%;
+}
+
+.nav-link:hover {
+    background-color: rgb(25, 135, 84);
+    border-radius: 5px;
+    color-scheme: inherit;
+    color: rgb(255, 254, 254);
+}
+
+#search {
+    margin-right: 20px;
+}
+
+#badge-1 {
+    font-size: small;
+    padding: 10px;
+}
+
+
+/* ---------------- carousel ----------------- */
+
+#header-below {
+    margin-top: 75px;
+}
+
+#font-size {
+    font-weight: 400;
+}
+
+
+/* --------------------- shop by category ------------------- */
+
+#image-shop-category {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* --------------- latest product ------------------- */
+
+#latestproduct {
+    height: 300px;
+}
+
+#border:hover {
+    border-color: rgb(25, 135, 84);
+}
+
+
+/* ----------------- footer ---------------------- */
+
+#quick {
+    font-weight: 400;
+}
+
+.page-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#button-top {
+    text-align: right;
+}
+
+
+/* ................................................... */
+
+
+/* ------------------ product list --------------------- */
+
+
+/* ---------------------- product contanier  ---------------- */
+
+#title {
+    font-weight: 300;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+
+/* --------------------- product view --------------------- */
+
+#product-view {
+    height: 80px;
+    width: 80px;
+    margin-bottom: -20px;
+}
+
+
+/* -------------------------- about-us - availability section ------------- */
+
+#icon-size {
+    font-size: 30px;
+}
+
+#icon-box:hover {
+    background-color: rgb(25, 135, 84);
+}
+
+
+/* --------------------- Payment page ------------------------ */
+
+
+/* -------------------- form Card number ---------------------- */
+
+#c-number {
+    background-color: rgb(180, 157, 201);
+    width: 300px;
+    border: none;
+}
